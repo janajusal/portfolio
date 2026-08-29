@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jusal Jana - Portfolio of a Class 8 Student building AI and Robotics solutions to everyday problems.">
+    <title>Jusal Jana | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="fade-in">
+
+    <!-- Particles.js container for background animation -->
+    <div id="particles-js"></div>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">JUSAL<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html" class="btn primary-btn resume-btn" style="padding: 8px 20px;">Download Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars" aria-label="Menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content" style="padding-bottom: 0;">
+        <!-- 2. Hero Section -->
+        <section class="hero bg-dark">
+            <div class="hero-content">
+                <h2 class="greeting">Hello, World!</h2>
+                <h1 class="name">Hi, I'm Jusal Jana 👋</h1>
+                <p class="tagline typing-role" style="font-size: 1.5rem; color: var(--neon-cyan); height: 30px; font-weight: bold;"></p>
+                <div class="cta-buttons" style="margin-top: 40px;">
+                    <a href="projects.html" class="btn primary-btn">View My Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="resume.html" class="btn secondary-btn">Download Resume</a>
+                </div>
+            </div>
+            <i class="fas fa-chevron-down scroll-arrow" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'})"></i>
+        </section>
+
+        <!-- 3. Stats Counter Bar -->
+        <section class="bg-darker section-padding scroll-fade-in">
+            <div class="container live-counters" style="margin-bottom: 0;">
+                <div class="counter-box">
+                    <h3 class="counter" data-target="15">0</h3>
+                    <p>Projects Built</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="3">0</h3>
+                    <p>Years Coding</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="5">0</h3>
+                    <p>Competitions</p>
+                </div>
+                <div class="counter-box">
+                    <h3 class="counter" data-target="12">0</h3>
+                    <p>Robots Built</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. About Me Preview -->
+        <section class="bg-dark section-padding scroll-fade-in">
+            <div class="container" style="text-align: center; max-width: 800px;">
+                <i class="fas fa-user-astronaut" style="font-size: 5rem; color: var(--neon-purple); margin-bottom: 20px;"></i>
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Who Am I?</h2>
+                <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 30px;">
+                    I am a Class 8 student at Contai Public School. I love building intelligent machines, writing elegant code, and exploring the fascinating intersection of software and hardware.
+                </p>
+                <a href="about.html" class="btn secondary-btn">Read Full Story <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- 5. Featured Skills -->
+        <section class="bg-darker section-padding scroll-fade-in">
+            <div class="container">
+                <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px;">Core <span>Skills</span></h2>
+                <div class="skills-grid" style="justify-content: center; gap: 30px;">
+                    <div class="glass-card" style="text-align: center; width: 200px;">
+                        <i class="fab fa-python" style="font-size: 3rem; color: var(--neon-cyan); margin-bottom: 15px;"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="glass-card" style="text-align: center; width: 200px;">
+                        <i class="fas fa-microchip" style="font-size: 3rem; color: var(--neon-purple); margin-bottom: 15px;"></i>
+                        <h3>Arduino</h3>
+                    </div>
+                    <div class="glass-card" style="text-align: center; width: 200px;">
+                        <i class="fas fa-brain" style="font-size: 3rem; color: var(--neon-cyan); margin-bottom: 15px;"></i>
+                        <h3>AI / ML</h3>
+                    </div>
+                    <div class="glass-card" style="text-align: center; width: 200px;">
+                        <i class="fas fa-cat" style="font-size: 3rem; color: var(--neon-purple); margin-bottom: 15px;"></i>
+                        <h3>Scratch</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Featured Project Spotlight -->
+        <section class="bg-dark section-padding scroll-fade-in">
+            <div class="container">
+                <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px;">Featured <span>Project</span></h2>
+                <div class="glass-card" style="display: grid; grid-template-columns: 1fr 2fr; gap: 40px; align-items: center;">
+                    <div style="text-align: center; background: rgba(0,0,0,0.5); padding: 40px; border-radius: 15px;">
+                        <i class="fas fa-smile-beam" style="font-size: 5rem; color: var(--neon-cyan);"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 2rem; color: var(--text-primary); margin-bottom: 10px;">Emotion Detection Assistant</h3>
+                        <p style="font-style: italic; color: var(--neon-purple); margin-bottom: 20px;">"An AI that reads your emotions and talks back"</p>
+                        <p style="color: var(--text-secondary); margin-bottom: 30px;">
+                            I built an AI system using Python and OpenCV that detects your facial expressions through the webcam and responds differently based on your current mood.
+                        </p>
+                        <a href="projects.html" class="btn primary-btn">See Full Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Timeline Teaser -->
+        <section class="bg-darker section-padding scroll-fade-in">
+            <div class="container" style="text-align: center;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 40px;">My <span>Journey</span></h2>
+                <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                    <div class="glass-card" style="flex: 1; min-width: 250px;">
+                        <h4 style="color: var(--neon-cyan);">Class 6</h4>
+                        <p>Started Coding in Scratch</p>
+                    </div>
+                    <div class="glass-card" style="flex: 1; min-width: 250px;">
+                        <h4 style="color: var(--neon-purple);">Class 7</h4>
+                        <p>Learned Python & Arduino</p>
+                    </div>
+                    <div class="glass-card" style="flex: 1; min-width: 250px;">
+                        <h4 style="color: var(--neon-cyan);">Class 8</h4>
+                        <p>Built AI Emotion Assistant</p>
+                    </div>
+                </div>
+                <div style="margin-top: 40px;">
+                    <a href="about.html" class="btn secondary-btn">View Full Timeline</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Quote Section -->
+        <section class="scroll-fade-in motto-banner">
+            <div class="container">
+                <p class="motto-text">"Building the <span>future</span>, one line of code at a time."</p>
+            </div>
+        </section>
+
+        <!-- 9. Final CTA -->
+        <section class="bg-dark section-padding scroll-fade-in" style="text-align: center;">
+            <div class="container">
+                <h2 style="font-size: 2.5rem; margin-bottom: 30px;">Want to see what else I've built?</h2>
+                <a href="projects.html" class="btn primary-btn" style="font-size: 1.2rem; padding: 15px 40px;">Explore All Projects</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-darker">
+        <div style="margin-bottom: 15px; font-size: 1.5rem;">
+            <a href="#" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;"><i class="fab fa-github"></i></a>
+            <a href="mailto:janajusal@gmail.com" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2026 Jusal Jana. Built with curiosity <i class="fas fa-robot neon-text"></i></p>
+    </footer>
+
+    <!-- Particles.js for background effect -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
